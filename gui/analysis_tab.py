@@ -28,7 +28,7 @@ class AnalysisTab:
         pf = tk.Frame(ctrl, bg=T.BG)
         pf.pack(side="left", fill="x", expand=True, padx=(14, 0))
         self._progress = ttk.Progressbar(pf, mode="determinate",
-                                         maximum=100, style="Fat.TProgressbar")
+                                         maximum=100, style="TProgressbar")
         self._progress.pack(fill="x")
         self._prog_lbl = tk.Label(pf, text="", bg=T.BG, fg=T.SUB,
                                    font=("Segoe UI", 8))

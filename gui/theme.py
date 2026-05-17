@@ -66,9 +66,7 @@ def setup(root: tk.Tk) -> None:
 
     s.configure("TRadiobutton", background=BG, foreground=TEXT)
     s.configure("TProgressbar", background=ACCENT, troughcolor=BORDER,
-                bordercolor=BORDER, thickness=8)
-    s.configure("Fat.TProgressbar", background=ACCENT, troughcolor=BORDER,
-                bordercolor=BORDER, thickness=16)
+                bordercolor=BORDER, thickness=14)
     s.configure("TScrollbar", background=BORDER, troughcolor=BG,
                 bordercolor=BG, arrowcolor=SUB)
 
